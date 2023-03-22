@@ -1,0 +1,32 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.form-group {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    border: none;
+    border-radius: 0%;
+    padding: 0.5rem;
+    border-bottom: 2px solid gray;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.submit-button {
+    width: 7rem;
+    height: 2rem;
+}
